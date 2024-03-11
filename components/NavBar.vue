@@ -3,18 +3,18 @@ export default {
     data() {
         return {
             entries: [
-                {
-                    label: "Blog",
-                    href: "/blog"
-                },
-                {
-                    label: "Work",
-                    href: "/work"
-                },
-                {
-                    label: "Contact",
-                    href: "/contact"
-                },
+                // {
+                //     label: "Blog",
+                //     href: "/blog"
+                // },
+                // {
+                //     label: "Work",
+                //     href: "/work"
+                // },
+                // {
+                //     label: "Contact",
+                //     href: "/contact"
+                // },
             ]
         }
     },
