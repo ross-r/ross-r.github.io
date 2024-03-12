@@ -25,23 +25,21 @@ export default defineNuxtConfig({
     },
     rootId: ""
   },
-  modules: [
-    [
-      '@nuxtjs/google-fonts',
-      {
-        families: {
-          Inter: {
-            wght: [400, 600, 700],
-          },
+  modules: [[
+    '@nuxtjs/google-fonts',
+    {
+      families: {
+        Inter: {
+          wght: [400, 600, 700],
         },
-        subsets: ['latin'],
-        display: 'swap',
-        prefetch: false,
-        preconnect: false,
-        preload: false,
-        download: true,
-        base64: false,
       },
-    ],
-  ],
+      subsets: ['latin'],
+      display: 'swap',
+      prefetch: false,
+      preconnect: false,
+      preload: false,
+      download: true,
+      base64: false,
+    },
+  ], "@nuxt/image"],
 })

@@ -1,6 +1,6 @@
 <template>
   <section class="container" id="about">
-    <div class="flex flex-row pb-8">
+    <div class="flex flex-col md:flex-row pb-8">
       <div class="w-full text-left">
         <p class="pt-0">
           I am drawn to the technology industry due to a lifelong immersion
@@ -30,7 +30,7 @@
           </p> -->
       </div>
 
-      <div class="w-full pl-24">
+      <div class="w-full pt-8 md:pl-24 md:pt-0">
         <div>
           <div class="flex items-end justify-between">
             <h4 class="font-body font-semibold">
