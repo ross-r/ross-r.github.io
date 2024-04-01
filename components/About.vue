@@ -20,14 +20,6 @@
           mindset has defined my career, making me adept at navigating
           challenges and delivering impactful results.
         </p>
-        <!-- <p class="pt-4">
-          <ul>
-            <li>Agile software development</li>
-            <li>Methodical</li>
-            <li>Experienced</li>
-            <li>Modern, up to the date with the latest technologies</li>
-          </ul>
-          </p> -->
       </div>
 
       <div class="w-full pt-8 md:pl-24 md:pt-0">

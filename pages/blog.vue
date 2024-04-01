@@ -1,7 +1,7 @@
 <template>
   <BaseLayout>
     <template v-slot:main>
-      <Home />
+      <PlaceHolder />
     </template>
   </BaseLayout>
 </template>

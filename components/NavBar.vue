@@ -4,8 +4,12 @@ export default {
         return {
             entries: [
                 {
+                    label: "Education",
+                    href: "/edu"
+                },
+                {
                     label: "Blog",
-                    href: "/"
+                    href: "/blog"
                 },
                 {
                     label: "Projects",
@@ -13,7 +17,7 @@ export default {
                 },
                 {
                     label: "Contact",
-                    href: "/"
+                    href: "/contact"
                 },
                 {
                     label: "Github",
@@ -41,9 +45,9 @@ export default {
         <div class="flex-none">
             <ul class="menu menu-horizontal">
                 <li class="hidden md:inline" v-for="entry in entries">
-                    <a :href="`${entry.href}`" :target="`${entry.target || ''}`">
+                    <a :href=entry.href :target=entry.target>
                         <span v-if="entry.icon">
-                            <NuxtImg :src="`${entry.icon.src}`" :class="`${entry.icon.class}`" />
+                            <NuxtImg :src=entry.icon.src :class=entry.icon.class />
                         </span>
                         <span v-else>{{ entry.label }}</span>
                     </a>
@@ -60,7 +64,7 @@ export default {
                         </summary>
                         <ul class="z-[1] p-2 shadow menu end-0 bg-base-100 rounded-box min-w-52">
                             <li v-for="entry in entries">
-                                <a :href="`${entry.href}`">
+                                <a :href=entry.href>
                                     {{ entry.label }}
                                 </a>
                             </li>
