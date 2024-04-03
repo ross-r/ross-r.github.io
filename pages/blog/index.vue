@@ -1,20 +1,4 @@
 <script>
-// This will collect all files inside of the content directory as an array.
-// const content = await queryContent( 'blog' ).find();
-
-// // Collect all the tags and flatten into a 1 dimensional array.
-// const tags = content.map( e => e.tags ).flat();
-
-// const createURI = ( post ) => {
-//   // Parse the path and extract the file name from it.
-//   //      /[folder]/[filename]
-//   // And then encode it as URI object.
-
-//   // ['/', '[folder]', '[filename]']
-//   const filename = post._path.toString().split( '/' )[ 2 ];
-//   return encodeURI( `/blog/${ filename }` );
-// }
-
 import { ref } from 'vue';
 
 export default {
@@ -97,7 +81,6 @@ export default {
     }
   }
 }
-
 </script>
 
 <template>
