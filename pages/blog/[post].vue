@@ -22,8 +22,8 @@ const data = await queryContent( `/blog/${ post }` ).findOne()
         <div>{{data.date}}</div>
       </div>
 
-      <div class="card bg-base-300 text-neutral-content p-4">
-        <ContentRenderer class="card-body min-w-full prose prose-invert select-text" :value="data" />
+      <div class="card bg-base-300 text-neutral-content">
+        <ContentRenderer class="card-body p-6 md:p-8 min-w-full prose prose-invert select-text" :value="data" />
       </div>
     </template>
   </BaseLayout>

@@ -92,16 +92,18 @@ export default {
         </ul>
       </div>
 
-      <div class="flex flex-row mb-4 min-w-full join">
-        <input type="text" placeholder="Search posts..." class="input input-bordered flex-grow join-item"
+      <div class="flex flex-col md:flex-row mb-4 min-w-full join">
+        <input type="text" placeholder="Search posts..." class="input input-bordered flex-grow mb-1 md:mb-0 md:join-item placeholder-gray-400 placeholder-opacity-80"
           @keyup="(event) => search(event)" />
 
-        <div class="dropdown dropdown-end">
-          <div tabindex="0" role="button" class="select select-bordered join-item">
-            <span class="w-full self-center truncate max-w-32">{{ filter.join(', ') || "Select Tags..." }}</span>
+        <div class="dropdown md:dropdown-end self-end min-w-full md:min-w-0">
+          <div tabindex="0" role="button" class=" text-base select select-bordered flex-grow min-w-full md:min-w-0 md:join-item">
+            <!-- Pseudo place holder, not very ideal.. -->
+            <span class="self-center truncate text-gray-400 text-opacity-80" v-if="filter.length === 0">Select Tags...</span>
+            <span class="self-center truncate" v-if="filter.length > 0">{{ filter.join(', ') }}</span>
           </div>
 
-          <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+          <ul tabindex="0" class="dropdown-content z-[1] menu min-w-full md:min-w-0 p-2 shadow bg-base-100 rounded-box w-52">
             <!-- <div v-if="filter.length">
               <li>
                 <a class="flex flex-row justify-center">
@@ -131,7 +133,7 @@ export default {
       <div class="flex flex-row gap-4 flex-wrap justify-center">
         <div class="card flex-grow w-96 bg-neutral text-neutral-content" v-for="entry in content">
           <div class="card-body">
-            <a :href="createURI(entry)" class="card-title text-2xl capitalize">{{ entry.title }}</a>
+            <a :href="createURI( entry )" class="card-title text-2xl capitalize">{{ entry.title }}</a>
 
             <div class="flex flex-row gap-2 flex-wrap">
               <div class="badge py-3" v-for="tag in entry.tags">
