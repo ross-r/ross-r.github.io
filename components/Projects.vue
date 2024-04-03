@@ -113,11 +113,10 @@ export default {
     },
 
     addFilter( tag ) {
-      console.log( "adding filter", tag );
       this.filters.push( tag );
       this.updateFilter();
     },
-    
+
     clearFilter() {
       this.filters = [];
       this.updateFilter();
@@ -129,7 +128,7 @@ export default {
 
     removeFilter( tag ) {
       const index = this.filters.indexOf( tag );
-      if( index === -1 ) {
+      if ( index === -1 ) {
         return;
       }
 
@@ -142,11 +141,14 @@ export default {
 
 <template>
   <div class="flex flex-grow w-full flex-row gap-2 flex-wrap mb-4 bg-neutral p-4 rounded-lg justify-center">
-    <div class="badge hover:badge-ghost py-4 cursor-pointer" v-for="tag in tags" v-on:click.self="addFilter( tag )">
+    <div class="badge hover:badge-ghost py-4 cursor-pointer" v-for="tag in tags" v-on:click.self="addFilter(tag)">
       {{ tag }}
 
-      <div class="ms-1 bg-base-200 hover:bg-base-300 rounded-full p-1" v-if="isActiveFilterTag( tag )" @click="removeFilter( tag )">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+      <div class="ms-1 bg-base-200 hover:bg-base-300 rounded-full p-1" v-if="isActiveFilterTag(tag)"
+        @click="removeFilter(tag)">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
       </div>
     </div>
   </div>
