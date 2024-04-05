@@ -39,10 +39,12 @@ export default {
     updateSearch() {
       if ( this.searchText.length === 0 ) {
         this.content = this.data;
+        this.updateFilter();
         return;
       }
 
-      this.content = this.data.filter( e => e.title.includes( this.searchText ) );
+      this.content = this.data.filter( e => e.title.toLowerCase().includes( this.searchText.toLowerCase() ) );
+      this.updateFilter();
     },
 
     // Called when the search input field keyup event.
@@ -53,7 +55,10 @@ export default {
 
     // Called whenever a tag is added or removed as a filter.
     updateFilter() {
-      this.updateSearch();
+      if( this.filter.length === 0 ) {
+        return;
+      }
+
       this.content = this.content.filter( post => this.filter.every( e => post.tags.includes( e ) ) );
     },
 
@@ -63,7 +68,8 @@ export default {
       }
 
       this.filter.push( tag );
-      this.updateFilter();
+      
+      this.updateSearch();
     },
 
     isActiveFilterTag( tag ) {
@@ -77,7 +83,8 @@ export default {
       }
 
       this.filter.splice( index, 1 );
-      this.updateFilter();
+
+      this.updateSearch();
     }
   }
 }
