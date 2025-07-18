@@ -3,20 +3,35 @@
     <div class="flex flex-col md:flex-row pb-8 tracking-wider">
       <div class="w-full text-left">
         <p class="pt-0">
-          My primary focus is software development, with strong proficiency in languages such as C++, Java, and PowerShell.
+          My primary focus is software development, with strong proficiency in C/C++ (C++11/14/17), C#, Java, x86_64 Assembly, PowerShell, and Python.
+          I also have experience with collaboration tools and platforms including Atlassian, GitHub, service desk systems, and working within SLA frameworks.
+
+          <br /><br />
+
           I approach problem-solving with a practical mindset, aiming to simplify processes and deliver clean, effective solutions.
           I value clarity, precision, and performance in the tools I build.
-           <br /> <br />
-          In addition to my development background, I have professional experience as a Service Desk Analyst.
-          This has included working across Microsoft 365, CRM platforms, Windows Server administration, and user and identity management through Active Directory and Entra.
-          I've also been involved in compliance uplift initiatives, data protection, cyber risk considerations, and collaborative platform management including SharePoint and Teams.
-           <br /> <br />
+
+          <br /><br />
+
+          In addition to my development background, I have professional experience as a Service Desk Analyst, supporting clients across a range of sectors including state and federal government, defence, and critical infrastructure.
+          This work has involved secure environments and sensitive systems, requiring a strong focus on compliance, risk mitigation, and data protection.
+
+          <br /><br />
+
+          My technical scope includes Microsoft 365, CRM platforms, Windows Server administration, and user and identity management via Active Directory and Entra ID.
+          I've contributed to compliance uplift projects, supported cyber security initiatives, and managed collaborative platforms such as SharePoint and Teams in high-trust environments.
+
+          <br /><br />
+
           I contribute actively to my team, assist my team lead where possible, and work with a customer-focused mindset.
           My approach aligns with ITIL standards and agile delivery practices, and I place a strong emphasis on improving customer experience through thoughtful technical support and continuous improvement.
-           <br /> <br />
-          Whether building software or supporting infrastructure, I take pride in delivering reliable, meaningful results.
+
+          <br /><br />
+
+          Whether building software or supporting infrastructure, I take pride in delivering reliable, meaningful results, especially in environments where security, performance, and trust are critical.
 
           <br /> <br />
+
           E: <a href="mailto:ross@heyimross.com" class="link">ross@heyimross.com</a>
         </p>
         <p class="pt-4">
