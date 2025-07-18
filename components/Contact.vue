@@ -1,22 +1,20 @@
 <script setup>
-  import { ref, onMounted } from 'vue'
   import { Icon } from '@iconify/vue'
 
+  import { onMounted } from 'vue';
+  
   import dayjs from 'dayjs'
   import utc from 'dayjs-plugin-utc'
   import timezone from 'dayjs-timezone-iana-plugin'
 
-  dayjs.extend( utc )
-  dayjs.extend( timezone )
-
-  const timezoneName = "Australia/Melbourne"
-  const currentTime = ref( "" )
-
   const updateTime = () => {
-    currentTime.value = dayjs().tz( timezoneName ).format( "hh:mm A" )
+    document.getElementById( 'time' ).innerHTML = dayjs().tz( "Australia/Melbourne" ).format( "hh:mm A" )
   }
 
   onMounted( () => {
+    dayjs.extend( utc )
+    dayjs.extend( timezone )
+
     updateTime()
     setInterval( updateTime, 60000 ) // update every minute
   } )
@@ -32,10 +30,10 @@
         State: Victoria
       </li>
       <li class="pb-1">
-        Time: {{ currentTime }}
+        Time: <span id="time"></span>
       </li>
       <li class="pb-1">
-        Time Zone: {{ timezoneName }}
+        Time Zone: Australia/Melbourne
       </li>
       <div class="list-disc">
         Contact:
