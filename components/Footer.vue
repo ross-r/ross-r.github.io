@@ -3,7 +3,7 @@
 
   <footer class="footer items-center p-4 text-neutral-content">
     <aside class="items-center grid-flow-col">
-      <p>Copyright &copy; 2024</p>
+      <p>Copyright &copy; 2025</p>
     </aside>
 
     <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
