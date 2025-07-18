@@ -3,7 +3,7 @@
     <div class="flex flex-col md:flex-row pb-8 tracking-wider">
       <div class="w-full text-left">
         <p class="pt-0">
-          My primary focus is software development, with strong proficiency in C/C++ (C++11/14/17), C#, Java, x86_64 Assembly, PowerShell, and Python.
+          My primary focus is software development, with strong proficiency in C/C++ (C++11/14/17), C#, Java, x86_64 Assembly, PowerShell, and Python, among other languages.
           I also have experience with collaboration tools and platforms including Atlassian, GitHub, service desk systems, and working within SLA frameworks.
 
           <br /><br />
