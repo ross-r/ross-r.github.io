@@ -6,6 +6,17 @@
 
 const projects = [
   {
+    title: "CS2 Friends Stat",
+    description: "A tool that displays the amount of games played, wins, losses and win rate of your Steam friends.",
+    tags: [
+      "JavaScript"
+    ],
+    link: {
+      href: "./project/cs2",
+      label: "Open"
+    }
+  },
+  {
     title: "VS Project Renamer",
     description: "A simple tool to rename Visual Studio project files to a new name.",
     tags: [

@@ -3,22 +3,21 @@
     <div class="flex flex-col md:flex-row pb-8">
       <div class="w-full text-left">
         <p class="pt-0">
-          I am drawn to the technology industry due to a lifelong immersion
-          in and fascination with technology. Since a young age, I have been
-          surrounded by and engaged with technology, learning and
-          leveraging it to develop software and small programs for various
-          tasks. This cumulative experience has fueled my passion to
-          contribute towards improving the lives of millions worldwide.
+          My primary focus is software development, with strong proficiency in languages such as C++, Java, and PowerShell.
+          I approach problem-solving with a practical mindset, aiming to simplify processes and deliver clean, effective solutions.
+          I value clarity, precision, and performance in the tools I build.
+           <br /> <br />
+          In addition to my development background, I have professional experience as a Service Desk Analyst.
+          This has included working across Microsoft 365, CRM platforms, Windows Server administration, and user and identity management through Active Directory and Entra.
+          I've also been involved in compliance uplift initiatives, data protection, cyber risk considerations, and collaborative platform management including SharePoint and Teams.
+           <br /> <br />
+          I contribute actively to my team, assist my team lead where possible, and work with a customer-focused mindset.
+          My approach aligns with ITIL standards and agile delivery practices, and I place a strong emphasis on improving customer experience through thoughtful technical support and continuous improvement.
+           <br /> <br />
+          Whether building software or supporting infrastructure, I take pride in delivering reliable, meaningful results.
         </p>
         <p class="pt-4">
-          Throughout my life, I have consistently identified as a developer.
-          Simply put, it is my craft. I view each seemingly simple problem as
-          an opportunity to create a solution, aiming to enhance efficiency
-          and simplify tasks for the future. My approach to problem-solving
-          involves a unique perspective and an unwavering commitment to
-          finding effective solutions tailored to the given circumstances. This
-          mindset has defined my career, making me adept at navigating
-          challenges and delivering impactful results.
+
         </p>
       </div>
 
