@@ -3,14 +3,14 @@ export default {
     data() {
         return {
             entries: [
-                {
-                    label: "Education",
-                    href: "/edu"
-                },
-                {
-                    label: "Blog",
-                    href: "/blog"
-                },
+                // {
+                //     label: "Education",
+                //     href: "/edu"
+                // },
+                // {
+                //     label: "Blog",
+                //     href: "/blog"
+                // },
                 {
                     label: "Projects",
                     href: "/projects"

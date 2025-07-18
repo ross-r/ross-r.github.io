@@ -16,7 +16,7 @@ export default defineNuxtConfig({
     head: {
       htmlAttrs: {
         lang: "en",
-        "data-theme": "dim"
+        "data-theme": "business"
       },
       meta: [
         // <meta name="viewport" content="width=device-width, initial-scale=1">

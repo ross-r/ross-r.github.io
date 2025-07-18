@@ -1,6 +1,6 @@
 <template>
-  <section class="container" id="about">
-    <div class="flex flex-col md:flex-row pb-8">
+  <section class="container w-full min-w-full" id="about">
+    <div class="flex flex-col md:flex-row pb-8 tracking-wider">
       <div class="w-full text-left">
         <p class="pt-0">
           My primary focus is software development, with strong proficiency in languages such as C++, Java, and PowerShell.
@@ -15,6 +15,9 @@
           My approach aligns with ITIL standards and agile delivery practices, and I place a strong emphasis on improving customer experience through thoughtful technical support and continuous improvement.
            <br /> <br />
           Whether building software or supporting infrastructure, I take pride in delivering reliable, meaningful results.
+
+          <br /> <br />
+          E: <a href="mailto:ross@heyimross.com" class="link">ross@heyimross.com</a>
         </p>
         <p class="pt-4">
 
