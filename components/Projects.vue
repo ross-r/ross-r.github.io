@@ -150,7 +150,7 @@ export default {
 }
 </script>
 
-<template>
+<template>  
   <div class="flex flex-grow w-full flex-row gap-2 flex-wrap mb-4 bg-neutral p-4 rounded-lg justify-center">
     <div class="badge hover:badge-ghost py-4 cursor-pointer" v-for="tag in tags" v-on:click.self="addFilter(tag)">
       {{ tag }}

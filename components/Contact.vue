@@ -21,6 +21,8 @@
 </script>
 
 <template>
+  <Hero />
+  
   <section class="container w-full min-w-full ">
     <ul class="">
       <li class="pb-1">

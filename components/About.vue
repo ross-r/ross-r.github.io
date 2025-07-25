@@ -1,4 +1,6 @@
 <template>
+  <Hero />
+
   <section class="container w-full min-w-full" id="about">
     <div class="flex flex-col md:flex-row pb-8 tracking-wider">
       <div class="w-full text-left">
@@ -47,7 +49,7 @@
             </h4>
             <h3 class="font-body text-1xl font-bold text-primary"><span data-animate-counter-to="90">0</span>%</h3>
           </div>
-          <div class="mt-2 h-3 w-full rounded-full bg-neutral-700">
+          <div class="mt-2 h-3 w-full rounded-full bg-neutral">
             <div class="h-3 rounded-full bg-primary transition-width duration-1000 ease-in-out w-0"
               data-animate-width-to="95%"></div>
           </div>
@@ -59,7 +61,7 @@
             </h4>
             <h3 class="font-body text-1xl font-bold text-primary"><span data-animate-counter-to="80">0</span>%</h3>
           </div>
-          <div class="mt-2 h-3 w-full rounded-full bg-neutral-700">
+          <div class="mt-2 h-3 w-full rounded-full bg-neutral">
             <div class="h-3 rounded-full bg-primary transition-width duration-1000 ease-in-out w-0"
               data-animate-width-to="80%"></div>
           </div>
@@ -71,7 +73,7 @@
             </h4>
             <h3 class="font-body text-1xl font-bold text-primary"><span data-animate-counter-to="65">0</span>%</h3>
           </div>
-          <div class="mt-2 h-3 w-full rounded-full bg-neutral-700">
+          <div class="mt-2 h-3 w-full rounded-full bg-neutral">
             <div class="h-3 rounded-full bg-primary transition-width duration-1000 ease-in-out w-0"
               data-animate-width-to="65%"></div>
           </div>
@@ -83,7 +85,7 @@
             </h4>
             <h3 class="font-body text-1xl font-bold text-primary"><span data-animate-counter-to="55">0</span>%</h3>
           </div>
-          <div class="mt-2 h-3 w-full rounded-full bg-neutral-700">
+          <div class="mt-2 h-3 w-full rounded-full bg-neutral">
             <div class="h-3 rounded-full bg-primary transition-width duration-1000 ease-in-out w-0"
               data-animate-width-to="55%"></div>
           </div>
@@ -95,7 +97,7 @@
             </h4>
             <h3 class="font-body text-1xl font-bold text-primary"><span data-animate-counter-to="70">0</span>%</h3>
           </div>
-          <div class="mt-2 h-3 w-full rounded-full bg-neutral-700">
+          <div class="mt-2 h-3 w-full rounded-full bg-neutral">
             <div class="h-3 rounded-full bg-primary transition-width duration-1000 ease-in-out w-0"
               data-animate-width-to="70%"></div>
           </div>
@@ -107,7 +109,7 @@
             </h4>
             <h3 class="font-body text-1xl font-bold text-primary"><span data-animate-counter-to="40">0</span>%</h3>
           </div>
-          <div class="mt-2 h-3 w-full rounded-full bg-neutral-700">
+          <div class="mt-2 h-3 w-full rounded-full bg-neutral">
             <div class="h-3 rounded-full bg-primary transition-width duration-1000 ease-in-out w-0"
               data-animate-width-to="40%"></div>
           </div>
@@ -119,7 +121,7 @@
             </h4>
             <h3 class="font-body text-1xl font-bold text-primary"><span data-animate-counter-to="80">0</span>%</h3>
           </div>
-          <div class="mt-2 h-3 w-full rounded-full bg-neutral-700">
+          <div class="mt-2 h-3 w-full rounded-full bg-neutral">
             <div class="h-3 rounded-full bg-primary transition-width duration-1000 ease-in-out w-0"
               data-animate-width-to="80%"></div>
           </div>
