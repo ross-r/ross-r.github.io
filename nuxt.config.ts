@@ -1,67 +1,17 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+import { defineNuxtConfig } from 'nuxt/config'
+
 export default defineNuxtConfig({
-  devtools: {
-    enabled: true
-  },
+  compatibilityDate: '2025-07-15',
+  devtools: { enabled: true },
   css: [
     '~/assets/css/main.css',
     '~/assets/css/print.css'
   ],
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
-  app: {
-    head: {
-      htmlAttrs: {
-        lang: "en",
-        "data-theme": "business"
-      },
-      meta: [
-        // <meta name="viewport" content="width=device-width, initial-scale=1">
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' }
-      ],
-    },
-    rootId: ""
-  },
   modules: [
-    [
-      '@nuxtjs/google-fonts',
-      {
-        families: {
-          Inter: {
-            wght: [400, 600, 700],
-          },
-        },
-        subsets: ['latin'],
-        display: 'swap',
-        prefetch: false,
-        preconnect: false,
-        preload: false,
-        download: true,
-        base64: false,
-      },
-    ],
-    "@nuxt/image",
-    "@nuxt/content"
-  ],
-  content: {
-    highlight: {
-      theme: 'github-dark-dimmed',
-      preload: [
-        'diff', 
-        'ts', 
-        'js', 
-        'css', 
-        'java', 
-        'groovy', 
-        'sql', 
-        'xml', 
-        'json',
-        'cpp'
-      ],
-    },
-  }
+    '@nuxt/content',
+    '@nuxt/eslint',
+    '@nuxt/image',
+    '@nuxt/ui',
+    '@nuxt/scripts'
+  ]
 })
