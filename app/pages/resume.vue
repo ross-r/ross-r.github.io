@@ -1,10 +1,6 @@
-<script setup>
-import { Icon } from '@iconify/vue'
-</script>
-
 <template>
   <section id="resume">
-    <div class="print-hidden px-8 pb-4">
+    <div class="print-hidden pb-4 max-w-4xl mx-auto">
 
       <UAlert
         color="primary"
@@ -23,9 +19,9 @@ import { Icon } from '@iconify/vue'
             </h2>
 
             <ul class="space-y-2 text-sm">
-              <li class="flex items-center gap-2"><Icon icon="mdi:email" width="24" height="24" /><a href="mailto:ross@heyimross.com" class="link link-hover">ross@heyimross.com</a></li>
-              <li class="flex items-center gap-2"><Icon icon="mdi:linkedin" width="24" height="24" /><a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" class="link link-hover">LinkedIn</a></li>
-              <li class="flex items-center gap-2"><Icon icon="mdi:github" width="24" height="24" /><a href="https://github.com/ross-r" target="_blank" rel="noopener noreferrer" class="link link-hover">Github</a></li>
+              <li class="flex items-center gap-2"><UIcon name="mdi:email" class="size-5" /><a href="mailto:ross@heyimross.com" class="link link-hover">ross@heyimross.com</a></li>
+              <li class="flex items-center gap-2"><UIcon name="mdi:linkedin" class="size-5" /><a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" class="link link-hover">LinkedIn</a></li>
+              <li class="flex items-center gap-2"><UIcon name="mdi:github" class="size-5" /><a href="https://github.com/ross-r" target="_blank" rel="noopener noreferrer" class="link link-hover">Github</a></li>
             </ul>
           </div>
 

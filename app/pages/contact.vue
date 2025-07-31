@@ -55,7 +55,7 @@
 
 <template>
   <section class="container w-full min-w-full">
-    <div class="w-full mb-4">
+    <div class="mb-4">
       <ul class="">
         <li class="pb-1">
           Country: Australia
@@ -73,10 +73,12 @@
 
       <div class="list-disc">
         Contact:
+        <div class="">
         <ULink v-for="link in links" :key="link.label" :to="link.to" :target="link.target" class="ms-4 flex items-center gap-1">
           <UIcon :name="link.icon" />
           <span>{{ link.label }}</span>
         </ULink>
+        </div>
       </div>
     </div>
 

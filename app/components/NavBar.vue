@@ -34,7 +34,7 @@ const items = ref<NavigationMenuItem[]>([
         <UNavigationMenu :items="items" class="w-full justify-center hidden md:flex" />
         
         <UDropdownMenu class="md:hidden" :items="items">
-          <UButton icon="i-lucide-menu" color="neutral" variant="ghost" />
+          <UButton icon="mdi:menu" color="neutral" variant="ghost" />
         </UDropdownMenu>
       </div>
     </header>
