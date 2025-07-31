@@ -27,7 +27,7 @@ const items = ref<NavigationMenuItem[]>([
   <section class="print-hidden sticky top-0 z-50">
     <header class="flex min-w-full max-w-full items-center justify-between p-4 backdrop-blur border-b border-default">
       <NuxtLink to="/" class="flex items-center gap-4">
-        <UAvatar src="/images/logo.jpg" alt="Ross" />
+        <UAvatar src="https://avatars.githubusercontent.com/u/80952041?v=4" alt="Ross" />
       </NuxtLink>
 
       <div class="flex place-self-end">
